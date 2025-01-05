@@ -17,7 +17,7 @@ public class Solution
                 if (v == '.')
                     continue;
 
-                string boxKey = $"{i}{j}";
+                string boxKey = $"{i / 3}{j / 3}";
 
                 if (
                     (row.ContainsKey(i) && row[i].Contains(v))
