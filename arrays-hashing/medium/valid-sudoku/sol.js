@@ -6,8 +6,8 @@
  */
 var isValidSudoku = function (board) {
   const row = {};
-  col = {};
-  box = {};
+  const col = {};
+  const box = {};
 
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
